@@ -7,7 +7,9 @@ body{
 .bg-light-grey{
     background-color: #ebebeb;
 }
-
+.bg-size-cover{
+    background-size: cover;
+}
 .w-50{
     width: 50%
 }
