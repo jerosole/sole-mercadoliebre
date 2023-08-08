@@ -1,20 +1,57 @@
-body{
+body {
     font-family: "Roboto", sans-serif;
 }
-.bg-yellow{
-    background-color:#EAC926;
-}
-.bg-light-grey{
-    background-color: #ebebeb;
-}
-.bg-size-cover{
-    background-size: cover;
-}
-.w-50{
-    width: 50%
+
+.bg-yellow {
+    background-color: #EAC926;
 }
 
-.p-1{
+.bg-light-grey {
+    background-color: #ebebeb;
+}
+
+.bg-size-cover {
+    background-size: cover;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.vw-90 {
+    width: 90vw;
+}
+
+.p-1 {
     padding: 8px;
 }
 
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.bt-1 {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.border-grey {
+    border-color: grey;
+}
+
+.md-product-shadow {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
+
+
+/* tablet */
+@media (min-width: 520px) {}
+
+/* desktop */
+@media (min-width: 1280px) {}
