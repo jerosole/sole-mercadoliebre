@@ -48,10 +48,95 @@ body {
     box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
 
+.img-banner {
+    width: 100vw;
+    height: 300px;
+}
+
+.style-article {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    line-height: 24px;
+
+}
+
+.style-article section {
+    border-top: solid 1px #ebebeb;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+}
+
+main .posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fa-truck {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.fa-truck:hover {
+    rotate: 270deg;
+}
+
+.article-images {
+    width: 70vw;
+}
+
+.style-article:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+
+main h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+.total-price {
+    display: flex;
+}
+
+.precio {
+    font-size: 18px;
+    width: 30%;
+}
+
+.total-price:hover+.descripciones {
+    display: block;
+}
+
+.descuento {
+    font-size: 16px;
+    width: 70%;
+    font-weight: lighter;
+    color: green;
+}
+
+.descripciones {
+    font-size: 16px;
+    color: gray;
+    font-weight: normal;
+    display: none;
+}
 
 
-/* tablet */
 @media (min-width: 520px) {}
 
-/* desktop */
 @media (min-width: 1280px) {}
