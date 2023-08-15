@@ -136,6 +136,54 @@ main h2 {
     display: none;
 }
 
+.information-box {
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.information-box i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.cost {
+    width: 100%;
+    display: flex;
+}
+
+.price {
+    padding-right: 7px;
+    margin-bottom: 10px;
+}
+
+.discount {
+    width: calc(100% - 7px);
+    color: #39b54a;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.burger-menu i {
+    background-color: #1259c3;
+    color: white;
+    padding: 12px;
+    margin: auto;
+    border-radius: 10px;
+}
 
 @media (min-width: 520px) {}
 
