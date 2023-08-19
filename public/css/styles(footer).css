@@ -1,0 +1,47 @@
+/*  FOOTER  */
+
+footer {
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 10px;
+}
+
+.fa-user-shield {
+    margin-bottom: 10px;
+    color: #212c7b;
+    font-size: 2em;
+}
+
+.fa-gift {
+    margin-bottom: 10px;
+    color: #212c7b;
+    font-size: 2em;
+}
+
+.fa-credit-card {
+    margin-bottom: 10px;
+    color: #212c7b;
+    font-size: 2em;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.fa-credit-card:hover {
+    color: #0022AA;
+}
+
+.fa-gift:hover {
+    color: #0022AA;
+}
+
+.fa-user-shield:hover {
+    color: #0022AA;
+}

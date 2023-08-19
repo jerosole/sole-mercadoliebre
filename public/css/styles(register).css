@@ -1,0 +1,52 @@
+/* REGISTER */
+
+.register-form {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-form h3 {
+    padding: 15px;
+}
+
+.register-form div {
+    padding: 10px;
+    margin: 5px;
+}
+
+.register-form button {
+    text-align: center;
+}
+
+.form-input-box {
+    width: 80vw;
+    max-width: 500px;
+    height: 2rem;
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-label-box {
+    display: none;
+}
+
+.bn60 {
+    background-color: #212c7b;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 45px;
+    width: 140px;
+}
+
+.bn60:hover {
+    background-color: #0022AA;
+}

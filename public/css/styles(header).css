@@ -1,0 +1,70 @@
+/* HEADER */
+header {
+    background-color: #eac926;
+    background-size: cover;
+    font-size: 12px;
+    padding: 10px;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+header img {
+    width: 200px;
+}
+
+header form {
+    display: flex;
+}
+
+header .search-bar {
+    text-align: center;
+}
+
+header .search-bar input {
+    width: 90%;
+}
+
+header .search-bar button {
+    width: 2em;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 20px;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.burger-menu button {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: #212c7b;
+    border-color: #212c7b;
+}
+
+.navbar {
+    display: none;
+}
+
+main {
+    background-color: rgb(235 235 235);
+    width: 90wd;
+    padding-bottom: 10px;
+}
